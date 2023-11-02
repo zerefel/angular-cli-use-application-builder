@@ -6,11 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "dev:ssr": "ng run project-16-ssr:serve-ssr",
-    "serve:ssr": "node dist/project-16-ssr/server/main.js",
-    "build:ssr": "ng build && ng run project-16-ssr:server",
-    "prerender": "ng run project-16-ssr:prerender"
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
